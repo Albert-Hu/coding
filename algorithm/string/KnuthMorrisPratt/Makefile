@@ -1,7 +1,7 @@
 all:
-	g++ -o main main.cpp kmp.cpp
+	g++ -std=c++11 -o main main.cpp kmp.cpp
 
-test: all
+run: all
 	./main
 
 clean:
